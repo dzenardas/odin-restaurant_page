@@ -4,10 +4,10 @@ import loadContact from './contact.js';
 
 loadHome();
 
-const homeBtn = document.getElementById('home-tab');
-const menuBtn = document.getElementById('menu-tab');
-const contactBtn = document.getElementById('contact-tab');
+const homeButton = document.getElementById('home-tab');
+const menuButton = document.getElementById('menu-tab');
+const contactButton = document.getElementById('contact-tab');
 
-homeBtn.addEventListener('click', loadHome);
-menuBtn.addEventListener('click', loadMenu);
-contactBtn.addEventListener('click', loadContact);
+homeButton.addEventListener('click', loadHome);
+menuButton.addEventListener('click', loadMenu);
+contactButton.addEventListener('click', loadContact);
